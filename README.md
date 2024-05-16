@@ -6,14 +6,13 @@ Zing is a modern, real-time chat application built using React and Firebase. It 
 
 - Real-time messaging
 - User authentication
-- Responsive design
 - Secure data handling
 - User-friendly interface
 
 ## Technologies Used
 
 - React
-- Firebase (Firestore, Authentication)
+- Firebase (Firestore, Authentication, Storage)
 - CSS (for styling)
 - JavaScript
 
@@ -50,14 +49,14 @@ Follow these instructions to set up the project on your local machine.
    ```bash
    VITE_API_KEY=your_api_key
    authDomain:,
-  projectId: ,
-  storageBucket: ,
-  messagingSenderId:
-  appId: 
+   projectId: ,
+   storageBucket: ,
+   messagingSenderId:
+   appId: 
 
 
   
-4. **Run the Apllication**
+5. **Run the Apllication**
   ```bash
   npm start
 
